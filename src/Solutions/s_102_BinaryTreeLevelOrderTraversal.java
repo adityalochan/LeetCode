@@ -1,13 +1,11 @@
 package Solutions;
 
-import DataStructures.BST_LevelOrderTraversal;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class s102_BinaryTreeLevelOrderTraversal {
+public class s_102_BinaryTreeLevelOrderTraversal {
 
     // Definition for a binary tree node.
     public static class TreeNode {
@@ -58,7 +56,7 @@ public class s102_BinaryTreeLevelOrderTraversal {
     }
 
     public static void main(String[] args) {
-        s102_BinaryTreeLevelOrderTraversal tree_level = new s102_BinaryTreeLevelOrderTraversal();
+        s_102_BinaryTreeLevelOrderTraversal tree_level = new s_102_BinaryTreeLevelOrderTraversal();
         tree_level.root = new TreeNode(1);
         tree_level.root.left = new TreeNode(2);
         tree_level.root.right = new TreeNode(3);

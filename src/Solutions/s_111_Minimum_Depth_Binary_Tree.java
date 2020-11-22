@@ -1,9 +1,6 @@
 package Solutions;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
-public class s111_Minimum_Depth_Binary_Tree {
+public class s_111_Minimum_Depth_Binary_Tree {
     public static class TreeNode {
         int val;
         TreeNode left;
@@ -70,7 +67,7 @@ public class s111_Minimum_Depth_Binary_Tree {
 
     public static void main(String[] args) {
         TreeNode t = new TreeNode(3, new TreeNode(9, null, null), new TreeNode(20, new TreeNode(15, null, null), new TreeNode(7, null, null)));
-        s111_Minimum_Depth_Binary_Tree s = new s111_Minimum_Depth_Binary_Tree();
+        s_111_Minimum_Depth_Binary_Tree s = new s_111_Minimum_Depth_Binary_Tree();
         System.out.println(s.minDepth(t));
     }
 }

@@ -2,7 +2,7 @@ package Solutions;
 
 import java.util.List;
 
-public class s107_BinaryTreeLevelOrderTravesal2 {
+public class s_107_BinaryTreeLevelOrderTravesal2 {
     public static class TreeNode {
         int val;
         TreeNode left;
@@ -31,7 +31,7 @@ public class s107_BinaryTreeLevelOrderTravesal2 {
     }
 
     public static void main(String[] args) {
-        s107_BinaryTreeLevelOrderTravesal2 tree_level = new s107_BinaryTreeLevelOrderTravesal2();
+        s_107_BinaryTreeLevelOrderTravesal2 tree_level = new s_107_BinaryTreeLevelOrderTravesal2();
         tree_level.root = new TreeNode(1);
         tree_level.root.left = new TreeNode(2);
         tree_level.root.right = new TreeNode(3);

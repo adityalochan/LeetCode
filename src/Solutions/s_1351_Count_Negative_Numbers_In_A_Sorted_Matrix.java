@@ -1,6 +1,6 @@
 package Solutions;
 
-public class s1351_Count_Negative_Numbers_In_A_Sorted_Matrix {
+public class s_1351_Count_Negative_Numbers_In_A_Sorted_Matrix {
 
     public int countNegatives(int[][] grid){
 //        --------------------
@@ -35,7 +35,7 @@ public class s1351_Count_Negative_Numbers_In_A_Sorted_Matrix {
     }
 
     public static void main(String[] args) {
-        s1351_Count_Negative_Numbers_In_A_Sorted_Matrix s = new s1351_Count_Negative_Numbers_In_A_Sorted_Matrix();
+        s_1351_Count_Negative_Numbers_In_A_Sorted_Matrix s = new s_1351_Count_Negative_Numbers_In_A_Sorted_Matrix();
 //        int[][] grid = {{5,1,0},{-5,-5,-5}};
         int[][] grid = {{4,3,2,-1},{3,2,1,-1},{1,1,-1,-2},{-1,-1,-2,-3}};
         int count = s.countNegatives(grid);

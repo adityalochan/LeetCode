@@ -2,7 +2,7 @@ package Solutions;
 
 import java.util.Arrays;
 
-public class Solution26 {
+public class s_26 {
 	
 	public int removeDuplicates(int[] nums) {
 		Arrays.sort(nums);
@@ -34,7 +34,7 @@ public class Solution26 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution26 s = new Solution26();
+		s_26 s = new s_26();
 		int[] nums = {0,0,1,1,1,2,2,3,3,4};
 		System.out.println(s.removeDuplicates(nums));
 	}

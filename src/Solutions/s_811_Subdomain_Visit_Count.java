@@ -2,13 +2,11 @@ package Solutions;
 
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.List;
 
-public class s811_Subdomain_Visit_Count {
+public class s_811_Subdomain_Visit_Count {
 
     public List<String> subdomainVisits(String[] cpdomains) {
         HashMap<String,Integer> hm = new HashMap<>();
@@ -31,7 +29,7 @@ public class s811_Subdomain_Visit_Count {
 
     public static void main(String[] args) {
         String[] cpdomains = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
-        s811_Subdomain_Visit_Count s = new s811_Subdomain_Visit_Count();
+        s_811_Subdomain_Visit_Count s = new s_811_Subdomain_Visit_Count();
         List<String> output = new ArrayList<>();
         output = s.subdomainVisits(cpdomains);
         for(int i=0;i<output.size();i++){

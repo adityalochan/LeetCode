@@ -2,7 +2,7 @@ package Solutions;
 
 import java.util.Stack;
 
-public class solution20 {
+public class s_20 {
 	static boolean match(char a, char b) {
 		if (a == '(' && b == ')')
 			return true;

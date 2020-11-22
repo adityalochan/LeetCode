@@ -1,6 +1,6 @@
 package Solutions;
 
-public class s1470_Shuffle_The_Array {
+public class s_1470_Shuffle_The_Array {
     public int[] shuffle(int[] nums, int n) {
 //        int arr_final[] = new int[nums.length];
 //        int arr1[] = new int[n];
@@ -40,7 +40,7 @@ public class s1470_Shuffle_The_Array {
 
     }
     public static void main(String[] args) {
-        s1470_Shuffle_The_Array s = new s1470_Shuffle_The_Array();
+        s_1470_Shuffle_The_Array s = new s_1470_Shuffle_The_Array();
         int nums[] = {2,5,1,3,4,7};
         int result[] = s.shuffle(nums,3);
 
